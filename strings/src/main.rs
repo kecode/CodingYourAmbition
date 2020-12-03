@@ -18,4 +18,18 @@ fn main() {
     let s3 = String::from("toe");
     let s4 = format!("{}-{}-{}", s1, s2, s3);
     println!("{}", s4);
+
+
+    let hello = "Здравствуйте";
+    let sss = &hello[0..4];
+    println!("{}", sss);
+
+    for c in "नम􀄰ते".chars() {
+        println!("{}", c);
+    }
+
+
+    for b in "नम􀄰ते".bytes() {
+        println!("{}", b);
+    }
 }
